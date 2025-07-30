@@ -32,7 +32,7 @@ The assistant is built using Python, LangChain, pandas, matplotlib, seaborn, and
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone [https://github.com/happybear-21/pubmed-insight-langchain](https://github.com/happybear-21/pubmed-insight-langchain)
    cd pubmed-insight-langchain
    ```
 2. **(Recommended) Create a virtual environment:**
@@ -60,9 +60,6 @@ This will:
 - Analyze research trends for sample topics
 - Perform a comparative analysis
 - Show how to enable AI-powered features
-
-### Enabling AI Features (Optional)
-To use Google Gemini for advanced queries, get a free API key at [makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey).
 
 Uncomment and set your key in `main.py`:
 ```python
