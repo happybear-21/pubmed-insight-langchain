@@ -32,7 +32,7 @@ The assistant is built using Python, LangChain, pandas, matplotlib, seaborn, and
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/happybear-21/pubmed-insight-langchain](https://github.com/happybear-21/pubmed-insight-langchain)
+   git clone https://github.com/happybear-21/pubmed-insight-langchain
    cd pubmed-insight-langchain
    ```
 2. **(Recommended) Create a virtual environment:**
