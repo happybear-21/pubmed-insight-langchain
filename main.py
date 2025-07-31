@@ -36,7 +36,7 @@ class AdvancedPubMedResearcher:
             gemini_api_key (str, optional): API key for Google's Gemini model.
                 If provided, enables AI-powered analysis features.
         """
-        self.pubmed_tool = PubmedQueryRun
+        self.pubmed_tool = PubmedQueryRun()
         self.research_cache = {}
     
         if gemini_api_key:
@@ -286,7 +286,7 @@ def main():
     # Uncomment next line and add your free Gemini API key for AI features
     # Get your free API key at: https://makersuite.google.com/app/apikey
     # researcher = AdvancedPubMedResearcher(gemini_api_key="your-gemini-api-key")
-    researcher = AdvancedPubMedResearcher()
+    researcher = AdvancedPubMedResearcher(gemini_api_key="")
    
     print("\n1. Basic PubMed Search")
     papers = researcher.search_papers("CRISPR gene editing", max_results=3)
